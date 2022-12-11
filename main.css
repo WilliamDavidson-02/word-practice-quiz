@@ -389,12 +389,12 @@ a {
 
 .answer-selection-1 {
     transition: ease .5s;
-    transform: translateX(-100%);
+    transform: translateX(-110%);
 }
 
 .answer-selection-2 {
     transition: ease .5s;
-    transform: translateX(106%);
+    transform: translateX(110%);
 }
 
 .right {
