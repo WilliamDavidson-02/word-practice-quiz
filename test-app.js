@@ -51,15 +51,15 @@ function selectLevelImg() {
 function levelCheck(e) {
     if(e.target === selectEasy) {
       selectLevelImg();
-      levelImg.src = "img/easy-space-01.svg";
+      levelImg.src = "easy-space-01.svg";
       testDifficulty = 0;
     } else if (e.target === selectMedium) {
       selectLevelImg();
-      levelImg.src = "img/medium-space-01.svg";
+      levelImg.src = "medium-space-01.svg";
       testDifficulty = 1;
     } else {
       selectLevelImg();
-      levelImg.src = "img/hard-space-01.svg";
+      levelImg.src = "hard-space-01.svg";
       testDifficulty = 2;
     }
 }
