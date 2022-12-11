@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="img/verbLogo.svg">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="glider.css">
+    <title>Verba</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="index.html">
+                <div class="nav-logo">
+                    <img class="logo" src="img/verbaExtendedLogo.svg" alt="Verba">
+                </div>
+            </a>
+            <div class="nav-menu-toggle" id="menu-button">
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+            </div>
+        </div>
+    </nav>
+    <div class="nav-content" id="nav-content">
+        <ul>
+            <li id="verba"><a href="index.html">Verba</a></li>
+            <li id="practice"><a href="practice.html">Practice</a></li>
+            <li id="test"><a href="test.html">Test</a></li>
+        </ul>
+    </div>
+    <main class="test-main">
+        <div class="test-container" id="test-container">
+            <div class="select-container">
+                <div class="select" id="select-easy">
+                    <img src="img/easy-space-01.svg" alt="">
+                </div>
+                <div class="select" id="select-medium">
+                    <img src="img/medium-space-01.svg">
+                </div>
+                <div class="select" id="select-hard">
+                    <img src="img/Hard-space-01.svg" alt="">
+                </div>
+            </div>
+            <div class="card-arrows test-arrows">
+                <button class="card-arrow left" id="test-arrow-left"><i class="fa-solid fa-arrow-left"></i></button>
+                <button class="card-arrow right" id="test-arrow-right"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+        <div class="test-start-container" id="test-start-container">
+            <img id="levelImg" src="">
+            <div class="amount-container">
+                <button class="card-arrow test-start" id="test-amount">3</button>
+                <button class="card-arrow test-start" id="test-amount">6</button>
+                <button class="card-arrow test-start" id="test-amount">All</button>
+            </div>
+            <button class="card-arrow test-start" id="test-start">Start</button>
+        </div>
+        <div class="started-test-container" id="started-test-container">
+            <div class="test-answer" id="answer-selection-1"></div>
+            <div class="current-test-word" id="current-test-word">
+                <div class="amount-counter" id="amount-counter"></div>
+                <h3 id="test-word"></h3>
+            </div>
+            <div class="test-answer" id="answer-selection-2"></div>
+        </div>
+        <button class="card-arrow test-start go-back" id="go-back"><i class="fa-solid fa-arrow-rotate-left"></i></button>
+    </main>
+    <script src="words.js"></script>
+    <script src="glider.js"></script>
+    <script src="test-app.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="/img/verbLogo.svg">
+    <link rel="stylesheet" href="/main.css">
+    <title>Verba</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="index.html">
+                <div class="nav-logo">
+                    <img class="logo" src="img/verbaExtendedLogo.svg" alt="Verba">
+                </div>
+            </a>
+            <div class="nav-menu-toggle" id="menu-button">
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+            </div>
+        </div>
+    </nav>
+    <div class="nav-content" id="nav-content">
+        <ul>
+            <li id="verba"><a href="/index.html">Verba</a></li>
+            <li id="practice"><a href="practice.html">Practice</a></li>
+            <li id="test"><a href="test.html">Test</a></li>
+        </ul>
+    </div>
+    <main>
+        <div class="practice-container" id="practice-container">
+            <div class="card-container">
+                <div class="card word" id="card">
+                    <h3 id="word"></h3>
+                </div>
+                <div class="card card-answer" id="card-answer">
+                    <h3 id="answer"></h3>
+                </div>
+                <div class="card-arrows">
+                    <button class="card-arrow" id="card-arrow-left"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button class="answer" id="answer-btn"><i class="fa-solid fa-question"></i></button>
+                    <button class="card-arrow" id="card-arrow-right"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="words.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
