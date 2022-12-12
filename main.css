@@ -413,6 +413,10 @@ a {
 
 /* ---- Media ---- */
 @media (max-width: 1000px) {
+    body {
+        height: -webkit-fill-available;
+        height: -moz-available;
+        height: -fill-available;
     .nav-content {
         width: 100%;
     }
