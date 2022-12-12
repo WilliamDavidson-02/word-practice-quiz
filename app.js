@@ -58,6 +58,14 @@ function toggleAnswerPractice() {
     card.classList.toggle("toggle-answer");
 }
 
+// Set height
+const setHeight = () => {
+    const currentHeight = window.innerHeight;
+    document.body.style.height = `${currentHeight}px`;
+};
+
+window.addEventListener("resize", setHeight);
+
 // Event listeners
 menuBtn.addEventListener("click", () => {
     navContent.classList.toggle("toggle-nav-content");
