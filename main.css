@@ -413,6 +413,9 @@ a {
 
 /* ---- Media ---- */
 @media (max-width: 1000px) {
+     main {
+        height: 80vh;
+    }
     .nav-content {
         width: 100%;
     }
