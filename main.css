@@ -413,9 +413,6 @@ a {
 
 /* ---- Media ---- */
 @media (max-width: 1000px) {
-    main {
-        height: -webkit-fill-available;
-        height: -moz-available;
     .nav-content {
         width: 100%;
     }
