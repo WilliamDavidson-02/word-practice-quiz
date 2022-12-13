@@ -59,7 +59,7 @@ function levelCheck(e) {
       testDifficulty = 1;
     } else {
       selectLevelImg();
-      levelImg.src = "hard-space-01.svg";
+      levelImg.src = "Hard-space-01.svg";
       testDifficulty = 2;
     }
 }
