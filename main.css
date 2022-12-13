@@ -439,4 +439,7 @@ a {
     .current-test-word {
         height: 50%;
     }
+        .card-arrows button:active {
+        transform: translateY(0);
+    }
 }
